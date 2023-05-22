@@ -1,52 +1,82 @@
-// 1. Declare a variable called username.
-// var username = ("Huma")
-// alert(username)
+// 1. Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights”
+// 2. Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.
+// 3. Write a program to take input color of road traffic signal from the user & show the message according to this table:
+// 4. Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car”
+//     5. Run this script, & check whether alert message would be displayed or not. Record the outputs.
+//     a. var a = 4;
+//     if (++a === 5){
+//     alert("given condition for variable a is true");
+//     }
+// b. var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// c. var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// d. var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+// e. if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+// 
+// f. if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+//     6. Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table:
+// 7. Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable.
+// Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct
+// answer”.
+// b. If the guessed number +1 is the secret number, show
+// “Close enough to the correct answer”.
 
-// 2. Declare a variable called myName & assign to it a string that represents your Full Name.
-// var myName = ("Huma")
-// var fullName = ("M.Yousaf")
- 
-// alert(myName+" "+fullName)
+// var secretNumber = 1;
+// var userInput = +prompt("Guess the number between 1 to 10")
 
-
-
-
-// 3. Write script to
-// a) Declare a JS variable, titled message.
-// b) Assign “Hello World” to variable message
-// c) Display the message in alert box.
-
-
-
-
-// 4. Write a script to save student’s bio data in JS variables and show the data in alert boxes.
-
-// function BD = () =>{
-
+// if (userInput == '1') {
+// alert("Bingo! Correct answer")
 // }
 
-// 5. Write a script to display the following alert using one JS variable:
+//  else if(secretNumber < userInput) {
+//     alert("Close enough to the correct answer")
+// }
 
+// 8. Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
 
-// 6. Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com).show the below mentioned message in an alert box.(Hint: use string concatenation)
+var number = 21; 
+if( number % 3 == 0) {
+alert(number)
+}
+// {The number is divisible by three. Do something... }
 
-
-// var email = ("My email address is humabhatti@email.com")
-// alert(email)
-
-
-
-// 7. Declare a variable called book & give it the value “A smarter way to learn JavaScript”. Display the following message in an alert box:
-
-// var book = ("A smarter way to learn JavaScript")
-// alert(book)
-
-// 8. Write a script to display this in browser through JS
-
-// var msg = ("Yah! I can Write HTML content through JavaScripts")
-// document.write(msg)
-
-// 9. Store following string in a variable and show in alert and browser through JS
-// “▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”
-// var end = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"
-// alert(end)
+// 9. Write a program that checks whether the given input is an even number or an odd number.
+// 10. Write a program that takes temperature as input and shows a message based on following criteria
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+// 11. Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %)
+// Compute & show the calculated result to user.
+    
