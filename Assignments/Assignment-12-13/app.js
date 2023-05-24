@@ -1,11 +1,21 @@
-// 1. Write a program that takes a character (number or string)
-// in a variable & checks whether the given input is a
+// 1. Write a program that takes a character (number or string) in a variable & checks whether the given input is a
 // number, uppercase letter or lower case letter. (Hint: ASCII
 // codes:- A=65, Z=90, a=97, z=122).
 // 2. Write a JavaScript program that accept two integers and
 // display the larger. Also show if the two integers are equal.
-// 3. Write a program that takes input a number from user &
-// state whether the number is positive, negative or zero.
+// 3. Write a program that takes input a number from user & state whether the number is positive, negative or zero.
+
+// var number = prompt("Enter a number: ");
+// if (number >= 0) {
+//     if (number == 0) {
+//         console.log("The number is zero");
+//     } else {
+//         console.log("The number is positive");
+//     }
+// } else {
+//     console.log("The number is negative");
+// }
+
 // 4. Write a program that takes a character (i.e. string of
 // length 1) and returns true if it is a vowel, false otherwise
 // 5. Write a program that
@@ -23,7 +33,9 @@
 // var hour = 13;
 // if (hour < 18) {
 // greeting = "Good day";
-// else
+
+// }
+// else{
 // greeting = "Good evening";
 // }
 // 7. Write a program that takes time as input from user in 24

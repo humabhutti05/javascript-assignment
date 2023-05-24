@@ -59,7 +59,11 @@
 // f. if("car" < "cat"){
 //     alert("car is smaller than cat");
 //     }
-// 6. Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table:
+// 6. Write a program to take input the marks obtained in three subjects & total marks. 
+//Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table:
+
+
+
 
 // 7. Guess game:
 // Store a secret number (ranging from 1 to 10) in a variable.
@@ -88,8 +92,15 @@
 
 // 9. Write a program that checks whether the given input is an even number or an odd number.
 
-// var userInput = ("Enter a Number")
-// if
+//  var userInput = prompt("Enter a Number 1 to 10")
+//  var num = 10;
+// if(userInput < ){
+// alert(num + " is Even");
+// }
+// else if {
+// alert(num + " is odd");
+// }
+
 
 // 10. Write a program that takes temperature as input and shows a message based on following criteria
 // a. T > 40 then “It is too hot outside.”
@@ -97,16 +108,16 @@
 // c. T > 20 then “Today’s Weather is cool.”
 // d. T > 10 then “OMG! Today’s weather is so Cool.”
 
-var temperature = prompt("Enter Temperature");
-if ("t > 40") {
-  alert("It is too hot outside.");
-} else if ("t > 30") {
-  alert("The Weather today is Normal.");
-} else if ("t > 20") {
-  alert("Today’s Weather is cool.");
-} else if ("t > 10") {
-  alert("OMG! Today’s weather is so Cool.");
-}
+// var temperature = prompt("Enter Temperature");
+// if ("t > 40") {
+//   alert("It is too hot outside.");
+// } else if ("t > 30") {
+//   alert("The Weather today is Normal.");
+// } else if ("t > 20") {
+//   alert("Today’s Weather is cool.");
+// } else if ("t > 10") {
+//   alert("OMG! Today’s weather is so Cool.");
+// }
 
 // 11. Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
 // a. First number

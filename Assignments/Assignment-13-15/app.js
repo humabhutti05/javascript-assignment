@@ -1,26 +1,22 @@
-// // 1. Declare an empty array using JS literal notation to store
-// // student names in future.
-// // 2. Declare an empty array using JS object notation to store
-// // student names in future.
-// // 3. Declare and initialize a strings array.
-// // 4. Declare and initialize a numbers array.
-// // 5. Declare and initialize a boolean array.
-// // 6. Declare and initialize a mixed array.
-// // 7. Declare and Initialize an array and store available
-// // education qualifications in Pakistan (e.g. SSC, HSC, BCS,
-// // BS, BCOM, MS, M. Phil., PhD). Show the listed
-// // // qualifications in your browser like:
-// 8. Write a program to store 3 student names in an array.Take
-// another array to store score of these three students.
+// // 1. Declare an empty array using JS literal notation to store student names in future.
+ // 2. Declare an empty array using JS object notation to store student names in future.
+// 3. Declare and initialize a strings array.
+ // 4. Declare and initialize a numbers array.
+// 5. Declare and initialize a boolean array.
+// 6. Declare and initialize a mixed array.
+// 7. Declare and Initialize an array and store available education qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD). Show the listed qualifications in your browser like:
+
+// var qualifications  = ['SSC' , 'HSC' , 'BCS' , 'BS' , 'BCOM' , 'MS' ,  'PhD' , 'M.Phil.']
+// console.log(qualifications)
+
+// 8. Write a program to store 3 student names in an array.Take another array to store score of these three students.
 // Assume that total marks are 500 for each student, display
 // the scores & percentages of students like:
-// 9. Initialize an array with color names. Display the array
-// elements in your browser.
+// 9. Initialize an array with color names. Display the array elements in your browser.
 // a. Ask the user what color he/she wants to add to the
 // beginning & add that color to the beginning of the array.
 // Display the updated array in your browser.
-// b. Ask the user what color he/she wants to add to the end
-// & add that color to the end of the array. Display the
+// b. Ask the user what color he/she wants to add to the end & add that color to the end of the array. Display the
 // updated array in your browser.
 // c. Add two more color to the beginning of the array.
 // Display the updated array in your browser.

@@ -6,8 +6,7 @@
 
 // 3. Write a program to print numeric counting from 1 to 10.
 
-// for( var i=1; i<=10; i++)
-// console.log(i)
+
 
 // 4. Write a program to print multiplication table of any
 // number using for loop. Table number & length should be
@@ -28,72 +27,38 @@
 // 6. Generate the following series in your browser. See
 // example output.
 // a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-
-// for( var i=1; i<=15; i++)
-// console.log(i)
-
 // b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-
-
-
 // c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
-
-// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// var length = numbers.length;
-// for (let i = 0; i < length; i++) {
-//   numbers[i] *= 2;
-// }
-// document.write(numbers)
-
 // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 
-// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// var length = numbers.length;
-// for (let i = 0; i < length; i++) {
-//   numbers[i] /= 2;
-// }
-// document.write(numbers)
-
-// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k 
+// Counting...
 
 
 // 7. You have an array
 // A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
-// Write a program to enable “search by user input” in an array.
-// After searching, prompt the user whether the given item is found in the list or not. Example:
-
-
-
-
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
 // 8. Write a program to identify the largest number in the
 // given array.
 // A = [24, 53, 78, 91, 12].
-
-// var numbers = [24, 53, 78, 91, 12];
-
-// var result = numbers[0];
-// for (let i=0; i < numbers.length; i++) {
-//     if (numbers[i] > result) {
-//         result = numbers[i];
-//     }
-// }
-
-// console.log("Largest number is: " + result);
-
 // 9. Write a program to identify the smallest number in the
 // given array.
 // A = [24, 53, 78, 91, 12]
 
-// var numbers = [24, 53, 78, 91, 12];
+// numbers = [24, 53, 78, 91, 12]
 
-// var result = numbers[0];
-// for (let i=0; i < numbers.length; i++) {
-//     if (numbers[i] < result) {
-//         result = numbers[i];
-//     }
+// var smallest = numbers[0];
+
+// for (var i = 1; i < numbers.length; i++) {
+
+// if (numbers[i] < smallest) {
+//     smallest = numbers[i];
+//   }
+//   console.log(smallest);
 // }
-
-// console.log("Smallest number is: " + result);
 
 // 10. Write a program to print multiples of 5 ranging 1 to
 // 100.
