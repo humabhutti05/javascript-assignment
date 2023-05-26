@@ -1,64 +1,91 @@
-// 1. Declare and initialize an empty multidimensional array.
-// (Array of arrays)
-// 2. Declare and initialize a multidimensional array representing the following matrix:
+// 1. Write a program that displays current date and time in your browser.
+
+// var current = new Date();
+// var days = ['sun', 'mon','tues', 'wed']
+// document.write(current)
+
+// 2. Write a program that alerts the current month in words.For example December.
+
+// var current = new Date();
+// document.write(current)
+// document.write(current.getMonth)
+
+
+// 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show Sun.
 
 
 
-// 3. Write a program to print numeric counting from 1 to 10.
+// 4. Write a program that displays a message “It’s Fun day” if
+// its Saturday or Sunday today.
 
 
 
-// 4. Write a program to print multiplication table of any
-// number using for loop. Table number & length should be
-// taken as an input from user.
-// 5. Write a program to print items of the following array
-// using for loop:
-// fruits = [“apple”, “banana”, “mango”, “orange”,
-// “strawberry”]
-
-// var fruits = ['apple', 'banana', 'mango',' orange', 'strawberry']
-// var len = fruits.length;	//no. of elements of the array
-
-// //print elements of the array
-// for (var i = 0; i < len; i++) {
-// 	console.log(fruits[i]);
-// }
-
-// 6. Generate the following series in your browser. See
-// example output.
-// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
-// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
-// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
-
-// Counting...
+// 5. Write a program that shows the message “First fifteen
+// days of the month” if the date is less than 16th of the month
+// else shows “Last days of the month”.
 
 
-// 7. You have an array
-// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
-// Write a program to enable “search by user input” in an
-// array.
-// After searching, prompt the user whether the given item is
-// found in the list or not. Example:
-// 8. Write a program to identify the largest number in the
-// given array.
-// A = [24, 53, 78, 91, 12].
-// 9. Write a program to identify the smallest number in the
-// given array.
-// A = [24, 53, 78, 91, 12]
 
-// numbers = [24, 53, 78, 91, 12]
 
-// var smallest = numbers[0];
+// 6. Write a program that determines the minutes since
+// midnight, Jan. 1, 1970 and assigns it to a variable that
+// hasn't been declared beforehand. Use any variable you like
+// to represent the Date object.
 
-// for (var i = 1; i < numbers.length; i++) {
 
-// if (numbers[i] < smallest) {
-//     smallest = numbers[i];
-//   }
-//   console.log(smallest);
-// }
 
-// 10. Write a program to print multiples of 5 ranging 1 to
-// 100.
+// 7. Write a program that tests whether it's before noon and alert “Its AM” else “its PM”.
+
+
+// 8. Write a program that creates a Date object for the last day
+// of the last month of 2020 and assigns it to variable named
+// laterDate.
+
+// 9. Create a date object of the starting date of this Ramadan
+// and alert the number of days past since 1st Ramadan?
+// Note: 1st Ramadan was on June 18, 2015
+
+// 10. Write a program that displays in your browser the
+// seconds that elapsed between the reference date and the
+// beginning of 2015.
+
+
+
+// 11. Create a Date object for the current date and time.
+// Extract the hours, reset the date object an hour ahead and
+// finally display the date object in your browser.
+
+
+
+// 12. Write a program that creates a date object and show the
+// date in an alert box that is reset to 100 years back?
+
+
+// 13. Write a program to ask the user about his age. Calculate
+// and show his birth year in your browser.
+
+// var userInput = prompt("Your age")
+// var DOB = new Date();
+
+// DOB.setFullYear(userInput)
+// DOB.getMonth(userInput)
+// DOB.setDate(userInput)
+// document.write(DOB)
+// var myAge = current-DOB
+// document.write(myAge/(1000*60*60*24*365.25))
+
+
+// 14. Write a program to generate your K-Electric bill in your
+// browser. All the amounts should be rounded off to 2
+// decimal places. Display the following fields:
+// a. Customer Name
+// b. Current Month
+// c. Number of units
+// d. Charges per unit
+// e. Net Amount Payable (within Due Date)
+// f. Late Payment Surcharge
+// g. Gross Amount Payable (after Due Date)
+// Where,
+// Net Amount Payable (within Due Date) = Number of units * Charges per unit
+// & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge

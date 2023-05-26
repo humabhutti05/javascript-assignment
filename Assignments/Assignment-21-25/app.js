@@ -92,7 +92,7 @@
 // enters cookie, Cookie, COOKIE or coOkIE, program
 // should inform about its availability. Example:
 
-// 15. Write a program to take password as an input from user. The password must qualify these requirements:
+// 15.Write a program to take password as an input from user. The password must qualify these requirements:
 // a. It should contain alphabets and numbers
 // b. It should not start with a number
 // c. It must at least 6 characters long
@@ -100,7 +100,9 @@
 // For character codes of a-z, A-Z & 0-9, refer to ASCII  table at the end of this document.
 
 
-// 16. Write a program to convert the following string to an
+var userInput = prompt("Enter your password")
+
+
 // array using string split method.
 // var university = “University of Karachi”;
 // Display the elements of array in your browser.

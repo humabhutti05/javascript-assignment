@@ -1,64 +1,68 @@
-// 1. Declare and initialize an empty multidimensional array.
-// (Array of arrays)
-// 2. Declare and initialize a multidimensional array representing the following matrix:
+// // 1. Write a function that displays current date & time in your browser.
+
+// function 
+
+// // 2. Write a function that takes first & last name and then it
+// // greets the user using his full name.
+
+
+// 2. Write a function that takes first & last name and then it
+// greets the user using his full name.
+// 3. Write a function that adds two numbers (input by user)
+// and returns the sum of two numbers.
+// 4. Calculator:
+// Write a function that takes three arguments num1, num2
+// & operator & compute the desired operation. Return and
+// show the desired result in your browser.
+// 5. Write a function that squares its argument.
+// 6. Write a function that computes factorial of a number.
+// 7. Write a function that take start and end number as inputs
+// & display counting in your browser.
+// 8. Write a nested function that computes hypotenuse of a
+// right angle triangle.
+// Hypotenuse2 = Base2 + Perpendicular2
+// Take base and perpendicular as inputs.
+// Outer function : calculateHypotenuse()
+// Inner function: calculateSquare()
+// 9. Write a function that calculates the area of a rectangle.
+//  A = width * height
+//  Pass width and height in following manner:
+// i. Arguments as value
+// ii. Arguments as variables
+// 10. Write a JavaScript function that checks whether a passed
+// string is palindrome or not?
+// A palindrome is word, phrase, or sequence that reads the same backward as
+// forward, e.g., madam.
+// 11. Write a JavaScript function that accepts a string as a
+// parameter and converts the first letter of each word of the
+// string in upper case.
+// EXAMPLE STRING : 'the quick brown fox'
+// EXPECTED OUTPUT : 'The Quick Brown Fox'
+
+// 12. Write a JavaScript function that accepts a string as a
+// parameter and find the longest word within the string.
+// EXAMPLE STRING : 'Web Development Tutorial'
+// EXPECTED OUTPUT : 'Development'
+// 13. Write a JavaScript function that accepts two arguments, a
+// string and a letter and the function will count the number of 
+// occurrences of the specified letter within the string.
+// Sample arguments : 'JSResourceS.com', 'o'
+
+
+// 14. The Geometrizer
+// Create 2 functions that calculate properties of a circle, using
+// the definitions here.
+// Create a function called calcCircumference:
+// • Pass the radius to the function.
+// • Calculate the circumference based on the radius, and output
+// "The circumference is NN".
+// Create a function called calcArea:
+// • Pass the radius to the function.
+// • Calculate the area based on the radius, and output "The area
+// is NN".
+// Circumference of circle = 2πr
+// Area of circle = πr2
 
 
 
-// 3. Write a program to print numeric counting from 1 to 10.
 
-
-
-// 4. Write a program to print multiplication table of any
-// number using for loop. Table number & length should be
-// taken as an input from user.
-// 5. Write a program to print items of the following array
-// using for loop:
-// fruits = [“apple”, “banana”, “mango”, “orange”,
-// “strawberry”]
-
-// var fruits = ['apple', 'banana', 'mango',' orange', 'strawberry']
-// var len = fruits.length;	//no. of elements of the array
-
-// //print elements of the array
-// for (var i = 0; i < len; i++) {
-// 	console.log(fruits[i]);
-// }
-
-// 6. Generate the following series in your browser. See
-// example output.
-// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
-// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
-// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
-
-// Counting...
-
-
-// 7. You have an array
-// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
-// Write a program to enable “search by user input” in an
-// array.
-// After searching, prompt the user whether the given item is
-// found in the list or not. Example:
-// 8. Write a program to identify the largest number in the
-// given array.
-// A = [24, 53, 78, 91, 12].
-// 9. Write a program to identify the smallest number in the
-// given array.
-// A = [24, 53, 78, 91, 12]
-
-// numbers = [24, 53, 78, 91, 12]
-
-// var smallest = numbers[0];
-
-// for (var i = 1; i < numbers.length; i++) {
-
-// if (numbers[i] < smallest) {
-//     smallest = numbers[i];
-//   }
-//   console.log(smallest);
-// }
-
-// 10. Write a program to print multiples of 5 ranging 1 to
-// 100.

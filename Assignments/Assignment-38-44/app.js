@@ -1,64 +1,38 @@
-// 1. Declare and initialize an empty multidimensional array.
-// (Array of arrays)
-// 2. Declare and initialize a multidimensional array representing the following matrix:
+// 1. Write a custom function power ( a, b ), to calculate the value of
+// a raised to b.
+// 2. Any year is entered through the keyboard. Write a function to
+// determine whether the year is a leap year or not.
+// Leap years ..., 2012, 2016, 2020, …
+// 3. If the lengths of the sides of a triangle are denoted by a, b, and
+// c, then area of triangle is given by
+// area = S(S − a)(S − b)(S − c)
+// where, S = ( a + b + c ) / 2
+// Calculate area of triangle using 2 functions
+// 4. Write a function that receives marks received by a student in 3
+// subjects and returns the average and percentage of these
+// marks. there should be 3 functions one is the mainFunction
+// and other are for average and percentage. Call those functions
+// from mainFunction and display result in mainFunction.
+// 5. You have learned the function indexOf. Code your own custom
+// function that will perform the same functionality. You can code
+// for single character as of now.
+// 6. Write a function to delete all vowels from a sentence. Assume
+// that the sentence is not more than 25 characters long.
+// 7. Write a function with switch statement to count the number of
+// occurrences of any two vowels in succession in a line of text.
+// For example, in the sentence
+// “Pleases read this application and give me gratuity”
+// Such occurrences are ea, ea, ui.
+// 8. The distance between two cities (in km.) is input through the
+// keyboard. Write four functions to convert and print this
+// distance in meters, feet, inches and centimeters.
+// 9. Write a program to calculate overtime pay of employees.
+// Overtime is paid at the rate of Rs. 12.00 per hour for every hour
+// worked above 40 hours. Assume that employees do not work
+// for fractional part of an hour.
+// 10. A cashier has currency notes of denominations 10, 50 and
+// 100. If the amount to be withdrawn is input through the
+// keyboard in hundreds, find the total number of currency notes
+// of each denomination the cashier will have to give to the
+// withdrawer.
 
-
-
-// 3. Write a program to print numeric counting from 1 to 10.
-
-
-
-// 4. Write a program to print multiplication table of any
-// number using for loop. Table number & length should be
-// taken as an input from user.
-// 5. Write a program to print items of the following array
-// using for loop:
-// fruits = [“apple”, “banana”, “mango”, “orange”,
-// “strawberry”]
-
-// var fruits = ['apple', 'banana', 'mango',' orange', 'strawberry']
-// var len = fruits.length;	//no. of elements of the array
-
-// //print elements of the array
-// for (var i = 0; i < len; i++) {
-// 	console.log(fruits[i]);
-// }
-
-// 6. Generate the following series in your browser. See
-// example output.
-// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
-// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
-// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
-
-// Counting...
-
-
-// 7. You have an array
-// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
-// Write a program to enable “search by user input” in an
-// array.
-// After searching, prompt the user whether the given item is
-// found in the list or not. Example:
-// 8. Write a program to identify the largest number in the
-// given array.
-// A = [24, 53, 78, 91, 12].
-// 9. Write a program to identify the smallest number in the
-// given array.
-// A = [24, 53, 78, 91, 12]
-
-// numbers = [24, 53, 78, 91, 12]
-
-// var smallest = numbers[0];
-
-// for (var i = 1; i < numbers.length; i++) {
-
-// if (numbers[i] < smallest) {
-//     smallest = numbers[i];
-//   }
-//   console.log(smallest);
-// }
-
-// 10. Write a program to print multiples of 5 ranging 1 to
-// 100.
