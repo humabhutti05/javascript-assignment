@@ -1,13 +1,19 @@
 // 1. Write a custom function power ( a, b ), to calculate the value of
 // a raised to b.
+
+ 
 // 2. Any year is entered through the keyboard. Write a function to
 // determine whether the year is a leap year or not.
 // Leap years ..., 2012, 2016, 2020, …
+
 // 3. If the lengths of the sides of a triangle are denoted by a, b, and
 // c, then area of triangle is given by
 // area = S(S − a)(S − b)(S − c)
 // where, S = ( a + b + c ) / 2
 // Calculate area of triangle using 2 functions
+
+
+
 // 4. Write a function that receives marks received by a student in 3
 // subjects and returns the average and percentage of these
 // marks. there should be 3 functions one is the mainFunction

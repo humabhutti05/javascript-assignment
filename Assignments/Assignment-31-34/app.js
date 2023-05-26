@@ -6,26 +6,50 @@
 
 // 2. Write a program that alerts the current month in words.For example December.
 
-// var current = new Date();
-// document.write(current)
-// document.write(current.getMonth)
+// var monthname = function(date){
+//     list = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+//       return list[date.getMonth()];
+//     };
+//     alert(monthname(new Date("05/27/2023")));
 
 
 // 3. Write a program that alerts the first 3 letters of the current
 // day, for example if today is Sunday then alert will show Sun.
 
-
+// var currentDay = new Date();
+// var currentDay = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+// var b = currentDay.getDay();
+// var c = b.slice(0,3);
+// document.write("Today is " + c);
 
 // 4. Write a program that displays a message “It’s Fun day” if
 // its Saturday or Sunday today.
 
-
+// var currentDate = new Date();
+// currentDate.toString;
+// var b = currentDate.toString();
+// var c = b.slice(0,3);
+// if (c === "Sat"){
+//     document.write("It's Fun Day")
+// }else if(c === "Sun"){
+//     document.write("It's Fun Day")
+// }
 
 // 5. Write a program that shows the message “First fifteen
 // days of the month” if the date is less than 16th of the month
 // else shows “Last days of the month”.
 
 
+// var msg1 = 1-15;
+// var msg2 = 16-30/31;
+// if('msg2'>'msg1'){
+//     alert("First fifteen days of the month")
+// }
+
+//  if('msg1'>'msg2'){
+
+//         alert("First fifteen days of the month")     
+// }
 
 
 // 6. Write a program that determines the minutes since
@@ -33,6 +57,17 @@
 // hasn't been declared beforehand. Use any variable you like
 // to represent the Date object.
 
+// var todayDate = new Date();
+// var Todaymilli = todayDate.getTime();
+// var todayMin = todayDate.getMinutes();
+// var diff = Todaymilli - todayMin;
+// var diffMin = diff/(1000*60*60);
+// var accurateMin = Math.floor(diffMin);
+
+ 
+// document.write("Current Date: " + todayDate);
+// document.write("<br> Elapsed milliseconds since midnight, Jan 1, 1970: " + Todaymilli);
+// document.write("<br> Elapsed minutes since midnight, Jan 1, 1970: " + accurateMin)
 
 
 // 7. Write a program that tests whether it's before noon and alert “Its AM” else “its PM”.
@@ -41,6 +76,12 @@
 // 8. Write a program that creates a Date object for the last day
 // of the last month of 2020 and assigns it to variable named
 // laterDate.
+
+// var laterDate = function(y,m){
+//     return  new Date(y, m +1, 0).getDay();
+//     }
+//     console.log("the last day of the last month of 2020 is:" + laterDate(2020,12));
+
 
 // 9. Create a date object of the starting date of this Ramadan
 // and alert the number of days past since 1st Ramadan?
@@ -89,3 +130,4 @@
 // Where,
 // Net Amount Payable (within Due Date) = Number of units * Charges per unit
 // & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
+
