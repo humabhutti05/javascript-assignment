@@ -8,25 +8,31 @@
  
 // alert(myName+" "+fullName)
 
-
-
-
 // 3. Write script to
 // a) Declare a JS variable, titled message.
 // b) Assign “Hello World” to variable message
 // c) Display the message in alert box.
 
 
-
+//var msg = ("Hello World!")
+//alert(msg)
 
 // 4. Write a script to save student’s bio data in JS variables and show the data in alert boxes.
 
-// function BD = () =>{
+// var studentName = ("Jerry")
+// alert(studentName)
 
-// }
+// var age = ("19")
+// alert(age)
+
+// var study = ("Cirtified Web Develepment")
+// alert(study)
+
 
 // 5. Write a script to display the following alert using one JS variable:
 
+// var word = ("PIZZA\nPIZZ\nPIZ\nPI\nP")
+// alert(word)
 
 // 6. Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com).show the below mentioned message in an alert box.(Hint: use string concatenation)
 

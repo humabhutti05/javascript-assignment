@@ -37,6 +37,7 @@
 // word “Hyderabad” and display the result in your browser.
 
 // var word = ("Hyderabad")
+// var replace 
 
 
 // 8. Write a program to replace all occurrences of “and” in the
@@ -91,29 +92,29 @@
 // enters cookie, Cookie, COOKIE or coOkIE, program
 // should inform about its availability. Example:
 
-// 15. Write a program to take password as an input from
-// user. The password must qualify these requirements:
+// 15. Write a program to take password as an input from user. The password must qualify these requirements:
 // a. It should contain alphabets and numbers
 // b. It should not start with a number
 // c. It must at least 6 characters long
-// If the password does not meet above requirements,
-// prompt the user to enter a valid password.
-// For character codes of a-z, A-Z & 0-9, refer to ASCII
-// table at the end of this document.
+// If the password does not meet above requirements, prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII  table at the end of this document.
+
+
 // 16. Write a program to convert the following string to an
 // array using string split method.
 // var university = “University of Karachi”;
 // Display the elements of array in your browser.
 
-// var university = "University of Karachi";
-// var arr = []
-// arr = university.split(3)
-// for (var i = 0; i< arr.length; i++){  
-// console.log(arr[i]);  
-// }  
+var str = 'University of Karachi';
+var str_array = str.split('');
 
+for(var i = 0; i < str_array.length; i++) {
+   str_array[i] = str_array[i]
+ console.log(str_array[i]);
+}
 
 // 17. Write a program to display the last character of a user
 // input.
+
 // 18. You have a string “The quick brown fox jumps over the lazy dog”. 
 // Write a program to count number of occurrences of word “the” in given string.
