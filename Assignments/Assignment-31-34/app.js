@@ -87,6 +87,14 @@
 // and alert the number of days past since 1st Ramadan?
 // Note: 1st Ramadan was on June 18, 2015
 
+// function daysPassed(dt) {
+//     var current = new Date(dt.getTime());
+//     var previous = new Date(dt.getFullYear());
+  
+//     return Math.ceil((current - previous + 1) / 86400000);
+//   }
+//   document.write("The number of days past since 1st Ramadan is:"+" " + daysPassed(new Date(2015, 4, 18)) + " " +"days");
+
 // 10. Write a program that displays in your browser the
 // seconds that elapsed between the reference date and the
 // beginning of 2015.
@@ -131,3 +139,20 @@
 // Net Amount Payable (within Due Date) = Number of units * Charges per unit
 // & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
 
+// document.write("<h2>K-Electric Bill" + "<br>" + "</h2>")
+
+// var customerName = " ABC Customer"
+// var currentMonth = "May"
+// var unitsNumber = 410;
+// var chargesPerUnits = 16;
+// var NetAmountPayable =3566;
+// var LatePaymentSurcharge = 350;
+// var GrossAmountPayable = 6910;
+// document.write("Customer Name:"+ customerName + "<br>"+ "Month:"+" " +currentMonth + "<br>" +"Units Number:" + " " +unitsNumber + "<br>"+"Charges pr units:"+chargesPerUnits 
+// +"<br>"+ "<br>"+ "NetAmountPayable:"+" " +NetAmountPayable +  "<br>"+ "LatePaymentSurcharge:"+" " +LatePaymentSurcharge + "<br>"+ "GrossAmountPayable:"+" " +GrossAmountPayable + "<br>") 
+
+
+// var nAP = 410*16;
+// var gAP = 3566+350;
+// document.write("<br>"+"Net Amount Payable (within Due Date)" + " " +" =" +" "+ nAP +"<br>")
+// document.write("Gross Amount Payable (after Due Date)" + " " +" =" +" "+ gAP + "<br>")
