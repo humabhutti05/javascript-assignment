@@ -9,7 +9,7 @@
 // 2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
 
 // var visited = 5;
-// alert("You have visited this site" + visited + "times")
+// alert("You have visited this site"+ " " + visited +  " " + "times")
 
 // 3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
 

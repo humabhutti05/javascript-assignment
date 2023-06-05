@@ -1,5 +1,11 @@
 // 1. Declare 3 variables in one statement.
+
+// document.write("<h2>"three variables named variable1, variable2, and variable3 are declared using the var keyword. Each variable is separated by a comma."</h2>")
+
+
 // 2. Declare 5 legal & 5 illegal variable names.
+
+
 
 // 3. Display this in your browser
 // a) A heading stating “Rules for naming JS variables”

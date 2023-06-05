@@ -1,15 +1,9 @@
-// 1. Write a program that take two numbers & add them in a
-// new variable. Show the result in your browser.
-// var num = ("num1 , num2")
-// num1 = 8
-// num2 = 10
-// result = num1 = num2
-// alert("result")
+// 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.
 
 // var num1 = 8;
 // var num2 = 10;
 // var result = num1 + num2;
-// alert(result)
+// document.write("The sum of 8 and 10 is:" +" "+result)
 
 // 2. Repeat task1 for subtraction, multiplication, division &
 // modulus.
@@ -17,15 +11,12 @@
 //  var num1 = 8;
 //  var num2 = 10;
 //   result = num1 - num2;
-// document.write("Subtract = " + result)
+// document.write("Subtract = " + result + "<br>")
 
-// //  var num1 = 8;
-// //  var num2 = 10;
+
 //   result = num1 * num2;
-//  document.write("Multiply = " + result)
+//  document.write("Multiply = " + result + "<br>")
 
-// //  var num1 = 8;
-// //  var num2 = 10;
 //   result = num1 / num2;
 //  document.write("Divide = " + result)
 
@@ -47,6 +38,43 @@
 // k. Show the remainder after dividing the variable’s value
 // by 3.
 // l. Output : “The remainder is : 0”.
+
+// Declare a variable
+// var myVariable;
+
+// // Show the value of variable after declaration
+// document.write("Value after variable declaration is: " + myVariable + "<br>");
+
+// // Initialize the variable with a number
+// myVariable = 5;
+
+// Show the initial value of the variable
+// document.write("Initial value: " + myVariable + "<br>");
+
+// // Increment the variable
+// myVariable++;
+
+// // Show the value after increment
+// document.write("Value after increment is: " + myVariable + "<br>");
+
+// // Add 7 to the variable
+// myVariable += 7;
+
+// // Show the value after addition
+// document.write("Value after addition is: " + myVariable + "<br>");
+
+// // Decrement the variable
+// myVariable--;
+
+// // Show the value after decrement
+// document.write("Value after decrement is: " + myVariable + "<br>");
+
+// // Show the remainder after dividing the variable's value by 3
+// var remainder = myVariable % 3;
+
+// // Show the remainder
+// document.write("The remainder is: " + remainder);
+
 
 // 4. Cost of one movie ticket is 600 PKR. Write a script to
 // store
@@ -87,23 +115,39 @@
 // e. Shipping charges
 // Compute the total cost & show the receipt in your browser.
 
-// var cart = {
-//     item: "Product 1",
-//     price: 500,
-//     qty: 2
-// }
 
-// var cart = {
-//     item: "Product 2",
-//     price: 400,
-//     qty: 2
-// }
+// var item1Price = prompt("Enter the price of item 1:");
+// var item1Quantity = prompt("Enter the ordered quantity of item 1:");
+
+// var item2Price = prompt("Enter the price of item 2:");
+// var item2Quantity = prompt("Enter the ordered quantity of item 2:");
+// var shippingCharges = prompt("Enter the shipping charges:");
+
+// var subtotal = (item1Price * item1Quantity) + (item2Price * item2Quantity);
+// var totalCost = subtotal + shippingCharges;
+
+// document.write("<h2>Receipt</h2>");
+// document.write("Item 1 Price: $" + item1Price.toFixed(2) + "<br>");
+// document.write("Item 1 Quantity: " + item1Quantity + "<br>");
+// document.write("Item 2 Price: $" + item2Price.toFixed(2) + "<br>");
+// document.write("Item 2 Quantity: " + item2Quantity + "<br>");
+// document.write("Shipping Charges: $" + shippingCharges.toFixed(2) + "<br>");
+// document.write("Subtotal: $" + subtotal.toFixed(2) + "<br>");
+// document.write("Total Cost: $" + totalCost.toFixed(2));
+
 
 // 8. Store total marks & marks obtained by a student in 2
 // variables. Compute the percentage & show the result in
 // your browser
 
-// var totalMarks 
+// var totalMarks = prompt("Enter the total marks:");
+// var marksObtained = prompt("Enter the marks obtained:");
+// var percentage = (marksObtained / totalMarks) * 100;
+
+// document.write("Total Marks: " + totalMarks + "<br>");
+// document.write("Marks Obtained: " + marksObtained + "<br>");
+// document.write("Percentage: " + percentage.toFixed(2) + "%");
+
 
 // 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
 // script to convert the total currency to Pakistani Rupees.
@@ -123,25 +167,33 @@
 
 // var num =  8;
 // var result = (8)+(5)*(10)/(2);
-// document.write(result)
+// document.write("<h3>" +"The sum of 8+5×10/2 is :" + "  "+  result +"</h3>")
 
-// 11. The Age Calculator: Forgot how old someone is? Calculate it!
-// a. Store the current year in a variable.
-// b. Store their birth year in a variable.
-// c. Calculate their 2 possible ages based on the stored
-// values.
-// Output them to the screen like so: “They are either NN or NN  years old”.
+// 11. Calculate their 2 possible ages based on the stored
+// values. Output them to the screen like so: “They are either NN or NN  years old”.
 
 // var currentYear = "2023";
 // var birthYear = "1999";
 // var age = currentYear - birthYear ;
-// document.write('You are either ' + age + ' or ' + (age - 1) + ' ' + 'years old')
+// document.write("<h3>"+'You are either ' + age + ' or ' + (age - 1) + ' ' + 'years old'+"</h3>")
 
 // 12. The Geometrizer: Calculate properties of a circle.
 // a. Store a radius into a variable.
 // b. Calculate the circumference based on the radius, and output “The circumference is NN”.
 // (Hint : Circumference of a circle = 2 π r , π = 3.142)
 // Calculate the area based on the radius, and output “The area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+
+
+// var radius = prompt("Enter the radius of the circle:");
+
+// var circumference = 2 * Math.PI * radius;
+
+// var area = Math.PI * Math.pow(radius, 2);
+
+// document.write("<h2>"+"The circumference is " + circumference.toFixed(2)+"</h2>");
+// document.write("<h2>"+ "The area is " + area.toFixed(2)+"</h2>");
+
+
 
 // 13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more.
 // a. Store your favorite snack into a variable
@@ -151,3 +203,16 @@
 // e. Calculate how many would you eat total for the rest of your life.
 // Output the result to the screen like so: “You will need
 // NNNN to last you until the ripe old age of NN”.
+
+
+// document.write("<h1>"+"The Lifetime Supply Calculator "+ "</h1>")
+// var snack = ("chilli milli")
+// document.write("<h4>"+"Favourit Snack:" + snack +"</h4>")
+// var currentAge = ("19")
+// document.write("<h4>"+"Current Age:"+ currentAge +"</h4>")
+// var maximumAge = ("60")
+// document.write("<h4>"+"Estimated maximim age:"+ maximumAge +"</h4>")
+// var EA = ("7")
+// document.write("<h4>"+"Amount of snake per day:"+ EA +"</h4>")
+
+// document.write("<h3>"+"You will need "+(maximumAge-currentAge)*EA+" " + snack + " " +"to last you until the rip old age of" +" " +maximumAge+"</h3>")

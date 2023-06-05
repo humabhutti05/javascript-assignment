@@ -7,7 +7,7 @@
 //     var domain = document.getElementById('domain').value;
 
 //     var useremail = email + domain
-//    document.write("Username =" + " " + username +"<br>","Useremail ="+ " " + useremail)
+//    document.write("<h2>"+"Username =" + " " + username +"<br>","Useremail ="+ " " + useremail+"</h2>")
 // }
 
 // 2. Suppose in your webpage there is content area in which you have entered your item details, but user can only see 
@@ -23,28 +23,84 @@
 // an edit button. On click on delete button entire row should be deleted. On click on edit button, a hidden form will 
 // appear with the values of that row.
 
+var students = [];
 
-function edit_row(no)
-{
- document.getElementById("edit_button"+no).style.display="none";
- 
-	
- var name=document.getElementById("name_row"+no);
- var country=document.getElementById("country_row"+no);
- var age=document.getElementById("age_row"+no);
-	
- var name_data=name.innerHTML;
- var country_data=country.innerHTML;
- var age_data=age.innerHTML;
-	
- name.innerHTML="<input type='text' id='name_text"+no+"' value='"+name_data+"'>";
- country.innerHTML="<input type='text' id='country_text"+no+"' value='"+country_data+"'>";
- age.innerHTML="<input type='text' id='age_text"+no+"' value='"+age_data+"'>";
+function addStudent() {
+  var name = document.getElementById('name').value;
+  var age = document.getElementById('age').value;
+  var grade = document.getElementById('grade').value;
+
+  var student = { name: name, age: age, grade: grade };
+  students.push(student);
+
+  displayStudents();
+  clearForm();
 }
 
+function displayStudents() {
+  var table = document.getElementById('studentTable');
 
-function delete_row(no)
-{
- document.getElementById("row"+no+"").outerHTML="";
+  while (table.rows.length > 1) {
+    table.deleteRow(1);
+  }
+
+  for (var i = 0; i < students.length; i++) {
+    var student = students[i];
+
+    var row = table.insertRow(i + 1);
+    var nameCell = row.insertCell(0);
+    var ageCell = row.insertCell(1);
+    var gradeCell = row.insertCell(2);
+    var actionsCell = row.insertCell(3);
+
+    nameCell.innerHTML = student.name;
+    ageCell.innerHTML = student.age;
+    gradeCell.innerHTML = student.grade;
+    actionsCell.innerHTML = '<button onclick="editStudent(' + i + ')">Edit</button> <button onclick="deleteStudent(' + i + ')">Delete</button>';
+  }
 }
 
+function deleteStudent(index) {
+  students.splice(index, 1);
+  displayStudents();
+}
+
+function editStudent(index) {
+  var student = students[index];
+  document.getElementById('editRowId').value = index;
+  document.getElementById('editName').value = student.name;
+  document.getElementById('editAge').value = student.age;
+  document.getElementById('editGrade').value = student.grade;
+
+  showEditForm();
+}
+
+function saveEditedStudent() {
+  var index = document.getElementById('editRowId').value;
+  var student = students[index];
+
+  student.name = document.getElementById('editName').value;
+  student.age = document.getElementById('editAge').value;
+  student.grade = document.getElementById('editGrade').value;
+
+  hideEditForm();
+  displayStudents();
+}
+
+function cancelEdit() {
+  hideEditForm();
+}
+
+function showEditForm() {
+  document.getElementById('editForm').style.display = 'block';
+}
+
+function hideEditForm() {
+  document.getElementById('editForm').style.display = 'none';
+}
+
+function clearForm() {
+  document.getElementById('name').value = '';
+  document.getElementById('age').value = '';
+  document.getElementById('grade').value = '';
+}

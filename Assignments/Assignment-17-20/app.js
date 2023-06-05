@@ -1,6 +1,15 @@
 // 1. Declare and initialize an empty multidimensional array.
 // (Array of arrays)
 
+// var array2D = [[]];
+
+// empty 3D array
+// var array3D = [[[]]];
+
+//  empty 4D array
+// var array4D = [[[[]]]];
+
+
 // 2. Declare and initialize a multidimensional array representing the following matrix:
 
 // var arr = ['[10]','[20]'];
@@ -17,10 +26,12 @@
 // number using for loop. Table number & length should be
 // taken as an input from user.
 
-// var userInput = prompt("Enter a number")
-// var length = userInput;
-// for(var i = 1; i<=length; i++){
-//     document.write(i)
+// var tableNumber = parseInt(prompt("Enter the table number:"));
+// var tableLength = parseInt(prompt("Enter the table length:"));
+// console.log("Multiplication Table of " + tableNumber + ":");
+// for (var i = 1; i <= tableLength; i++) {
+//   var result = tableNumber * i;
+//   console.log(tableNumber + " x " + i + " = " + result);
 // }
 
 // 5. Write a program to print items of the following array
@@ -29,9 +40,7 @@
 // “strawberry”]
 
 // var fruits = ['apple', 'banana', 'mango',' orange', 'strawberry']
-// var len = fruits.length;	//no. of elements of the array
-
-// //print elements of the array
+// var len = fruits.length;	
 // for (var i = 0; i < len; i++) {
 // 	console.log(fruits[i]);
 // }
@@ -39,42 +48,38 @@
 // 6. Generate the following series in your browser. See
 // example output.
 // a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-
-// for( var i =1; i <=15; i++  )
-// document.write("<br>"+ i)
-
 // b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-
-// for(var i =1; i <=15; i--){
-//     document.write(i)
-// }
-
 // c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
-
-// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// var length = numbers.length;
-// for (let i = 0; i < length; i++) {
-//   numbers[i] *= 2;
-// }
-// document.write(numbers)
-
 // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
-
-// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// var length = numbers.length;
-// for (let i = 0; i < length; i++) {
-//   numbers[i] /= 2;
-// }
-// document.write(numbers)
-
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k 
 
-// var series = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// var length = series.length;
-// for (let i = 0; i < length; i++) {
-//   series[i] *= '2';
+
+// document.write("<h2>"+"Counting from 1 to 15:"+"</h2>");
+// for( var i =1; i <=15; i++  ){
+// document.write("<h4>"+i+"</h4>")
 // }
-// document.write(series)
+
+// document.write("<h2>"+"Reverse counting from 10 to 1:"+"</h2>");
+// for (var i = 10; i >= 1; i--) {
+//   document.write("<h4>"+i+"</h4>");
+// }
+
+// document.write("<h2>"+"Even Numbers from 0 to 20:"+"</h2>");
+// for (var i = 0; i <= 20; i += 2) {
+//   document.write("<h4>"+i+"</h4>");
+// }
+
+// document.write("<h2>"+"Odd numbers from 1 to 19:"+"</h2>");
+// for (var i = 1; i <= 19; i += 2) {
+//   document.write("<h4>"+i+"</h4>");
+// }
+
+// document.write("<h2>"+"Series from 2K to 20K:"+"</h2>");
+// for (var i = 2; i <= 20; i += 2) {
+//     var result = i + "k";
+//     document.write("<h4>"+result+"</h4>");
+//   }
+  
 
 // 7. You have an array
 // A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
@@ -89,40 +94,36 @@
 // given array.
 // A = [24, 53, 78, 91, 12].
 
-// var numbers = [24, 53, 78, 91, 12];
-
-// var result = numbers[0];
-// for (let i=0; i < numbers.length; i++) {
-//     if (numbers[i] > result) {
-//         result = numbers[i];
-//     }
+// var A = [24, 53, 78, 91, 12];
+// var largestNumber = A[0];
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] > largestNumber) {
+//     largestNumber = A[i];
+//   }
 // }
-
-// console.log("Largest number is: " + result);
+// document.write("<h2>"+"The largest number in the array is: " + largestNumber+"</h2>");
 
 // 9. Write a program to identify the smallest number in the
 // given array.
 // A = [24, 53, 78, 91, 12]
 
 // var numbers = [24, 53, 78, 91, 12];
-
 // var result = numbers[0];
 // for (let i=0; i < numbers.length; i++) {
 //     if (numbers[i] < result) {
 //         result = numbers[i];
 //     }
 // }
-
-// console.log("Smallest number is: " + result);
+//  document.write("<h2>"+"The Smallest number in the array  is: " + result +"</h2>");
 
 // 10. Write a program to print multiples of 5 ranging 1 to
 // 100.
 
-
-// for (let i = 1; i <105; i++) {
-
+// document.write( "<h2> "+ "Multiples of 5 ranging 1 to 100." +"</h2>")
+// for (var i = 1; i <105; i++) {
 //     if (i%5==0)
-
 //  document.write('<br>' + i);
 // }
+
+  
 
