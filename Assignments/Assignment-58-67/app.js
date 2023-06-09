@@ -19,6 +19,10 @@
 // </div>
 // </div>
 // i. Get element of id “main-content” and assign them in a variable.
+
+// var mainContent = document.getElementById("main-content")
+// console.log(mainContent);
+
 // ii. Display all child elements of “main-content” element.
 
 
@@ -29,60 +33,67 @@
 
 // iii. Get all elements of class “render” and show their innerHTML in browser.
 
-var renderElements = document.getElementsByClassName("render");
-for (var i = 0; i < renderElements.length; i++) {
-  console.log(renderElements[i].innerHTML);
-}
+// var renderElements = document.getElementsByClassName("render");
+// for (var i = 0; i < renderElements.length; i++) {
+//   console.log(renderElements[i].innerHTML);
+// }
 
 
 
 // iv. Fill input value whose element id first-name using javascript.
-
-document.getElementById("first-name").value = "Alex";
-
-
 // v. Repeat part iv for id ”last-name” and “email”.
 
-
-var lastNameInput = document.getElementById("last-name");
-var emailInput = document.getElementById("email");
-
-console.log(lastNameInput.value);
-console.log(emailInput.value);
+// var firstNameInput = document.getElementById("first-name").value = "Alex";
+// var lastNameInput = document.getElementById("last-name").value = "Bank";
+// var emailInput = document.getElementById("email").value = "alexbank@example.com";
+// console.log(firstNameInputNameInput.value);
+// console.log(lastNameInput.value);
+// console.log(emailInput.value);
 
 
 // 2. use HTML code of question 1 and show the result on browser.
 // i. What is node type of element having id “form-content”.
 
-// document.write(The node type of the element with the id "form-content" is a <div> element.)
+var formContentElement = document.getElementById("form-content");
+var formContentNodeType = formContentElement.nodeType;
+console.log("Node type of form-content element: " + formContentNodeType);
+
+
+// console.log("The node type of the element with the id" + "form-content" + "is a <div> element".)
 
 // ii. Show node type of element having id “lastName” and its child node.
 
-//document.write( The node type of the element with the id "lastName" is a <p> element. Its child node is a text node containing the text "Last Name: Bank".)
+// var lastNameElement = document.getElementById("lastName");
+// var lastNameNodeType = lastNameElement.nodeType;
+// var childNode = lastNameElement.firstChild;
+// console.log("Node type of lastName element: " + lastNameNodeType);
+// console.log("Child node of lastName element: ", childNode);
+
 
 // iii. Update child node of element having id “lastName”.
 
 // var lastNameElement = document.getElementById("lastName");
 // lastNameElement.firstChild.nodeValue = "New Last Name: Updated";
-
+// console.log(lastNameElement.firstChild.nodeValue)
 
 // iv. Get First and last child of id “main-content”.
 
 // var mainContentElement = document.getElementById("main-content");
 // var firstChild = mainContentElement.firstChild;
 // var lastChild = mainContentElement.lastChild;
-
+// console.log(mainContentElement, firstChild, lastChild)
 
 // v. Get next and previous siblings of id “lastName”.
 
 // var lastNameElement = document.getElementById("lastName");
 // var nextSibling = lastNameElement.nextSibling;
 // var previousSibling = lastNameElement.previousSibling;
-
+// console.log(lastNameElement, nextSibling, previousSibling)
 
 // vi. Get parent node and node type of element having id “email”
+
 // var emailElement = document.getElementById("email");
 // var parentNode = emailElement.parentNode;
 // var nodeType = emailElement.nodeType; 
-
+// console.log(emailElement, parentNode, nodeType)
 
